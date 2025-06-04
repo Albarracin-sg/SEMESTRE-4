@@ -1,20 +1,15 @@
-print("\n --------Variables-----------")
-a = float(input("\nDigita un numero: "))
-b = float(input("Digita un segundo numero: "))
+print("---------Variables Boleanas---------\n")
+a = True
+b = False
+print (f"la variable a es: {a}.\nla variable b es {b}.")
 
-suma = a + b
-resta = a - b
-multiplicacion = a * b
-division = a / b         
-divisionEntera = a // b 
-modulo = a % b           
-potencia = a ** b        
+andResultado = a and b
+orResultado = a or b
+notResultado = not a
+xorResultado = a ^ b  
 
-print("\n --------Resultados-----------")
-print("\nSuma: ", suma)
-print("Resta: ", resta)
-print("Multiplicación: ", multiplicacion)
-print("División exacta: ", division)
-print("División entera: ", divisionEntera)
-print("Módulo: ", modulo)
-print("Potencia: ", potencia)
+print("\n---------Resultado---------\n")
+print("AND (a and b):", andResultado)
+print("OR (a or b):", orResultado)
+print("NOT (not a):", notResultado)
+print("XOR (a ^ b):", xorResultado)
