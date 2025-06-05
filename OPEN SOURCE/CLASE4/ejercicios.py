@@ -1,4 +1,4 @@
-#PARETE 2 DEL TALLER JUAN ALBARRACIN
+#PARETE 2 DEL TALLER JUAN ALBARRACIN 
 
 def ejercicio_11():
     x = int(input("Ingresa un valor para x: "))
@@ -64,8 +64,8 @@ while True:
     print("16. x != y y uno > 15")
     print("17. Evaluar: (10 != 5) and (4 == 4) or (2 > 3)")
     print("18. Evaluar: True ^ False")
-    print("19. Evaluar: (3 > 2) and (2 > 1) ^ False")
-    print("20. Verificar si solo uno es positivo\n")
+    print("19 (01). Evaluar: (3 > 2) and (2 > 1) ^ False")
+    print("20 (02). Verificar si solo uno es positivo\n")
     print("0. Salir\n")
 
     opcion = input("Elige una opción (11-20, 0 para salir): ")
