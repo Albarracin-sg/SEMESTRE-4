@@ -10,7 +10,7 @@ const Goals = () => {
       category: 'Transporte',
       target: '20% reducción',
       progress: 65,
-      deadline: '2024-12-31',
+      deadline: '2025-06-12',
       status: 'En progreso',
       impact: '2.5 kg CO2/semana'
     },
@@ -21,7 +21,7 @@ const Goals = () => {
       category: 'Energía',
       target: '30% reducción',
       progress: 40,
-      deadline: '2024-11-30',
+      deadline: '2025-06-12',
       status: 'En progreso',
       impact: '15 kg CO2/mes'
     },
@@ -32,7 +32,7 @@ const Goals = () => {
       category: 'Alimentación',
       target: '25% reducción',
       progress: 80,
-      deadline: '2024-10-31',
+      deadline: '2025-06-12',
       status: 'Casi completado',
       impact: '8 kg CO2/semana'
     }
