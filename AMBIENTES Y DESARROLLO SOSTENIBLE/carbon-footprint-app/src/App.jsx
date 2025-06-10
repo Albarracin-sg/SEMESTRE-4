@@ -1,9 +1,16 @@
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import AppRoutes from './routes/AppRoutes';
+
 function App() {
   return (
-    <>
-      <h1 className="font-bold text-3xl text-blue-300">holaaaa</h1>
-
-    </>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-grow container mx-auto p-4">
+        <AppRoutes />
+      </main>
+      <Footer />
+    </div>
   );
 }
 
