@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-2 text-sm text-gray-400">
               <Heart className="w-4 h-4 text-red-400" />
-              <span>Hecho con amor por el planeta</span>
+              <span>Hecho con amor por Javier Gomez, Juan Albarracin, Esteban Molina, Valentina Tapia</span>
             </div>
           </div>
 
